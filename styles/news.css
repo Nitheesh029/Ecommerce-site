@@ -1,0 +1,39 @@
+#sign-up{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    background-image:url(/images/banner/b-14.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 160px;
+    padding:0px 30px;
+    background-color: lightblue;
+}
+
+.input-signup{
+    display:flex;
+}
+
+#sign-up .letter h1{
+    color:white;
+}
+
+#sign-up .input-signup input{
+    padding: 20px;
+    background-color: #d1d0d0;
+    border: none;
+    font-size: 16px;
+    margin-right:0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+}
+
+#sign-up .input-signup button{
+    padding: 20px;
+    background-color: #088178;
+    border: none;
+    font-size: 16px;
+    margin-left:0;
+    border-radius: 5px;
+}

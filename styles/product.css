@@ -1,0 +1,76 @@
+.products-section{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.products-section h1{
+    color: #222222;
+    font-size: 50px;
+}
+
+.products-section p{
+    color: #465b52;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.products-section .product-collections{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 60px;
+}
+
+.products-section .product-cart{
+    width: 280px;
+    border: 1px solid #ebebeb;
+    padding: 13px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: box-shadow 0.2s ease;
+}
+
+.products-section .product-cart:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.150);
+}
+
+.products-section .product-cart img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.products-section .product-cart span{
+    color: #969696;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.products-section .product-cart h4{
+    font-size: 18px;
+    color: rgb(41, 41, 41)  
+}
+
+.products-section .product-cart .stars i{
+    color: rgb(250, 222, 67);
+    padding: 6px 0;   
+}
+
+.products-section .product-cart .price{
+    color: #088178;
+    padding: 4px 0;
+}
+
+.products-section .product-cart .p-icon{
+    color: #088178;
+    background-color: #c7e9e75e;
+    padding: 15px;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
